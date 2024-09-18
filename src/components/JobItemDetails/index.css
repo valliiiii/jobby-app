@@ -1,0 +1,268 @@
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.job-item-details-main-container {
+  background-color: black;
+  min-height: 100vh;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-details-main-container {
+    padding: 25px 75px;
+  }
+}
+
+.job-item-failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin: 25px 0;
+  text-align: center;
+}
+
+.job-item-failure-container img {
+  width: 70%;
+}
+
+.job-item-failure-container h1 {
+  font-size: 20px;
+}
+
+.job-item-failure-container p {
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.retry-btn {
+  background-color: #4f46e5;
+  color: #f8fafc;
+  padding: 10px 24px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.retry-btn:hover {
+  transform: scale(1.01);
+}
+
+.retry-btn:active {
+  transform: scale(0.96);
+}
+
+.link-ele {
+  text-decoration: none;
+}
+
+.job-card-container {
+  background-color: #272727;
+  padding: 15px;
+  font-family: 'Roboto';
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-card-container {
+    padding: 25px;
+    margin-bottom: 20px;
+  }
+}
+
+.logo-title-rating-container {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.logo-title-rating-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.title-rating-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.title-rating-container h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.star-icon-rating-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.star-icon-rating-container p {
+  padding: 0;
+  margin: 0;
+}
+
+.star-icon {
+  color: #fbbf24;
+  margin-right: 5px;
+}
+
+.location-job-type-package-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin-top: 15px;
+}
+
+.location-job-type-container {
+  display: flex;
+  align-items: center;
+}
+
+.location-icon-and-para-container {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.location-icon-and-para-container p {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.package-para {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.hr-line {
+  color: #b6c5ff;
+  border: 1px solid;
+  margin: 15px 5px;
+}
+
+.description-and-visit-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.visit-link-container {
+  display: flex;
+  align-items: center;
+}
+
+.visit-para {
+  color: #6366f1;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+}
+
+.visit-link-icon {
+  color: #6366f1;
+  width: 18px;
+  height: 18px;
+  margin-left: 5px;
+}
+
+.description-heading {
+  color: white;
+  font-size: 18px;
+}
+
+.description-para {
+  color: white;
+  font-size: 15px;
+}
+
+.skills-ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.skills-li-container {
+  list-style-type: none;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.skills-li-container img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .skills-li-container {
+    width: 33%;
+  }
+
+  .skills-li-container img {
+    width: 45px;
+    height: 45px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .description-para-img-container {
+    display: flex;
+  }
+
+  .description-para-img-container p {
+    width: 60%;
+    margin: 0;
+    font-size: 16px;
+  }
+}
+
+.description-img {
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .description-img {
+    width: 40%;
+    margin-left: 60px;
+  }
+}
+
+.similar-jobs-heading {
+  color: white;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.similar-jobs-ul-container {
+  padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .similar-jobs-ul-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}

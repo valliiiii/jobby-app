@@ -1,0 +1,11 @@
+.not-found-container {
+  background-color: black;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 15px;
+  text-align: center;
+}
